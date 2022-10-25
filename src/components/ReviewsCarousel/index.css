@@ -1,0 +1,147 @@
+/* Write your code here */
+@media screen and (min-width: 767px) {
+  .bgContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    padding: 10px;
+    background-color: white;
+    width: 45%;
+    height: 40%;
+    border-radius: 7px;
+    border-width: 2px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .title {
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    height: 70px;
+  }
+  .btn1 {
+    border-color: transparent;
+    background-color: transparent;
+    align-self: center;
+    cursor: pointer;
+  }
+  .listItem {
+    list-style-type: none;
+  }
+  .profile {
+    height: 100px;
+    align-self: center;
+    justify-content: center;
+    display: block;
+  }
+  .unOrderdList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+  }
+  .company {
+    text-align: center;
+    color: #171f46;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .description {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0px;
+  }
+}
+/* Write your code here */
+@media screen and (max-width: 767px) {
+  .bgContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    padding: 5px;
+    background-color: white;
+    width: 85%;
+    border-radius: 7px;
+    border-width: 2px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .title {
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    height: 50px;
+    margin: 0px;
+  }
+  .btn1 {
+    border-color: transparent;
+    background-color: transparent;
+    align-self: center;
+    cursor: pointer;
+  }
+  .listItem {
+    list-style-type: none;
+  }
+  .profile {
+    height: 100px;
+    align-self: center;
+    justify-content: center;
+  }
+  .unOrderdList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px;
+  }
+  .company {
+    text-align: center;
+    color: #171f46;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .description {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0px;
+  }
+}
